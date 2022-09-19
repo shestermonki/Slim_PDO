@@ -1,0 +1,15 @@
+{
+  "name": "stucom/sudoku",
+  "description": "API Sudokus",
+  "require": {
+    "monolog/monolog": ">=2.0.0 <3.0.0",
+    "slim/slim": "4.*",
+    "slim/psr7": "*",
+    "slim/http": "*"
+  },
+  "autoload": {
+      "psr-4": { 
+        "ApiSudoku\\": "src/"
+      }
+  }
+}
